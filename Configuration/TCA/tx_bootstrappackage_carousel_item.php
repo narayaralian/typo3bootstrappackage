@@ -295,7 +295,14 @@ return array(
                             'allowedExtensions' => 'jpg',
                         ),
                     ),
-                ),                
+                ),
+                'wizards' => array(
+                    'link' => array(
+                        'module' => array(
+                            'name' => 'wizard_link'
+                        ),
+                    ),
+                ),
             ),
         ),
         'header' => array(
