@@ -196,7 +196,7 @@ return array(
                 'authMode' => $GLOBALS['TYPO3_CONF_VARS']['BE']['explicitADmode'],
                 'authMode_enforce' => 'strict',
                 'iconsInOptionTags' => 1,
-                'noIconsBelowSelect' => 1
+                'showIconTable' => true
             )
         ),
         'hidden' => array(
