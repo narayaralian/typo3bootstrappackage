@@ -97,8 +97,7 @@ return array(
             'label' => 'LLL:EXT:lang/locallang_general.xlf:LGL.starttime',
             'config' => array(
                 'type' => 'input',
-                'size' => '13',
-                'max' => '20',
+                'size' => '13',                
                 'eval' => 'datetime',
                 'default' => '0'
             ),
@@ -110,8 +109,7 @@ return array(
             'label' => 'LLL:EXT:lang/locallang_general.xlf:LGL.endtime',
             'config' => array(
                 'type' => 'input',
-                'size' => '13',
-                'max' => '20',
+                'size' => '13',                
                 'eval' => 'datetime',
                 'default' => '0',
                 'range' => array(
