@@ -141,7 +141,9 @@ $tca = array(
         'bootstrap_package_listgroup' => array(
             'columnsOverrides' => array(
                 'bodytext' => array(
-                    'defaultExtras' => 'nowrap'
+                    'config' => array(                        
+                        'wrap' => 'off'
+                    ),                    
                 ),
             ),
             'showitem' => '

@@ -106,9 +106,9 @@ return array(
                 'bodytext' => array(
                     'config' => array(
                         'format' => 'html',
-                        'renderType' => 't3editor'
-                    ),
-                    'defaultExtras' => 'nowrap'
+                        'renderType' => 't3editor',
+                        'wrap' => 'off'
+                    ),                    
                 ),
             ),
             'showitem' => '
