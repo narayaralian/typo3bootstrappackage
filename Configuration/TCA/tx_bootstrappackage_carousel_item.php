@@ -469,8 +469,10 @@ return array(
                     'appearance' => array(
                         'createNewRelationLinkTitle' => 'LLL:EXT:cms/locallang_ttc.xlf:images.addFileReference'
                     ),
-                    'foreign_types' => array(
-                        \TYPO3\CMS\Core\Resource\File::FILETYPE_UNKNOWN => array(
+                    'overrideChildTca' => array(
+                        'types' => array(
+                            'aForeignType' => array(
+                                \TYPO3\CMS\Core\Resource\File::FILETYPE_UNKNOWN => array(
                             'showitem' => '
                                 --palette--;;filePalette
                             '
@@ -482,7 +484,9 @@ return array(
                         ),
                         \TYPO3\CMS\Core\Resource\File::FILETYPE_IMAGE => array(
                             'showitem' => '
-                                --palette--;;filePalette
+                                title,
+                                alternative,
+                                 --palette--;;filePalette
                             '
                         ),
                         \TYPO3\CMS\Core\Resource\File::FILETYPE_AUDIO => array(
@@ -500,7 +504,9 @@ return array(
                                 --palette--;;filePalette
                             '
                         ),
-                    ),
+                            ),
+                        ),
+                    ), 
                     'minitems' => 0,
                     'maxitems' => 1
                 ),
