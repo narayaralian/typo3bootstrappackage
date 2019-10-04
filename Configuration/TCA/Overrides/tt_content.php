@@ -67,7 +67,6 @@ unset($backupCTypeItems);
  */
 $tca = array(
     'ctrl' => array(
-        'requestUpdate' => $GLOBALS['TCA']['tt_content']['ctrl']['requestUpdate'] . ',icon_type',
         'typeicons' => array(
             'bootstrap_package_panel' => 'tt_content_header.gif',
             'bootstrap_package_listgroup' => 'tt_content_header.gif',
@@ -1312,6 +1311,7 @@ $tca = array(
                     array('LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:option.top', 'top'),
                 ),
             ),
+            'onChange' => 'reload'
         ),
         'icon_type' => array(
             'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:field.icon_type',
@@ -1324,6 +1324,7 @@ $tca = array(
                     array('LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:option.circle', 2),
                 ),
             ),
+            'onChange' => 'reload'
         ),
         'icon_size' => array(
             'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:field.icon_size',
@@ -1336,6 +1337,7 @@ $tca = array(
                     array('LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:option.awesome', 3),
                 ),
             ),
+            'onChange' => 'reload'
         ),
         'icon_color' => array(
             'displayCond' => 'FIELD:icon_type:!=:0',
@@ -1344,6 +1346,7 @@ $tca = array(
                 'type' => 'input',
                 'renderType' => 'colorpicker',
             ),
+            'onChange' => 'reload'
         ),
         'icon_background' => array(
             'displayCond' => 'FIELD:icon_type:!=:0',
@@ -1352,6 +1355,7 @@ $tca = array(
                 'type' => 'input',
                 'renderType' => 'colorpicker',
             ),
+            'onChange' => 'reload'
         ),
         'external_media_source' => array(
             'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:field.external_media_source',
@@ -1361,6 +1365,7 @@ $tca = array(
                 'eval' => 'trim',
                 'max' => 1024,
             ),
+            'onChange' => 'reload'
         ),
         'external_media_ratio' => array(
             'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:field.external_media_ratio',
@@ -1371,6 +1376,7 @@ $tca = array(
                     array('4:3', '4by3'),
                 ),
             ),
+            'onChange' => 'reload'
         ),
     ),
 );
