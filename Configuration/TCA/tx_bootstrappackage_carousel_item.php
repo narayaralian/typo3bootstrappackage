@@ -285,21 +285,16 @@ return array(
                 'size' => 50,
                 'softref' => 'typolink',
                 'type' => 'input',
-                'wizards' => array(
-                    'link' => array(
-                        'icon' => 'link_popup.gif',
-                        'JSopenParams' => 'height=300,width=500,status=0,menubar=0,scrollbars=1',
-                        'module' => array(
-                            'name' => 'wizard_element_browser',
-                            'urlParameters' => array(
-                                'mode' => 'wizard',
-                            ),
+                'renderType' => 'inputLink',
+                'fieldControl' => array(
+                    'linkPopup' => array(
+                        'options' => array(
+                            'blindLinkOptions' => 'folder',
+                            'blindLinkFields' => 'class, target',
+                            'allowedExtensions' => 'jpg',
                         ),
-                        'title' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:carousel_item.link',
-                        'type' => 'popup'
                     ),
-                    '_PADDING' => 2
-                ),
+                ),                
             ),
         ),
         'header' => array(
