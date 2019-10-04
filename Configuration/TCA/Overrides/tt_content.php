@@ -264,8 +264,7 @@ $tca = array(
                         'localize' => true,
                     ),
                 ),
-                'behaviour' => array(
-                    'localizationMode' => 'select',
+                'behaviour' => array(                    
                     'mode' => 'select',
                     'localizeChildrenAtParentLocalization' => true,
                 ),
@@ -288,8 +287,7 @@ $tca = array(
                         'localize' => true,
                     ),
                 ),
-                'behaviour' => array(
-                    'localizationMode' => 'select',
+                'behaviour' => array(                   
                     'mode' => 'select',
                     'localizeChildrenAtParentLocalization' => true,
                 ),
@@ -312,8 +310,7 @@ $tca = array(
                         'localize' => true,
                     ),
                 ),
-                'behaviour' => array(
-                    'localizationMode' => 'select',
+                'behaviour' => array(                    
                     'mode' => 'select',
                     'localizeChildrenAtParentLocalization' => true,
                 ),
