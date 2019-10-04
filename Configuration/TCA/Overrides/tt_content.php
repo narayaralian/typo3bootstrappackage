@@ -119,7 +119,9 @@ $tca = array(
         'bootstrap_package_panel' => array(
             'columnsOverrides' => array(
                 'bodytext' => array(
-                    'defaultExtras' => 'richtext:rte_transform[mode=ts_css]'
+                    'config' => array(
+                        'enableRichtext' => true,
+                    ) 
                 ),
             ),
             'showitem' => '
@@ -211,7 +213,9 @@ $tca = array(
         'bootstrap_package_texticon' => array(
             'columnsOverrides' => array(
                 'bodytext' => array(
-                    'defaultExtras' => 'richtext:rte_transform[mode=ts_css]'
+                    'config' => array(
+                        'enableRichtext' => true,
+                    )                    
                 ),
             ),
             'showitem' => '
