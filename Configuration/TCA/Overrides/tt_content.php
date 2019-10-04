@@ -1342,20 +1342,7 @@ $tca = array(
             'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:field.icon_color',
             'config' => array(
                 'type' => 'input',
-                'size' => 10,
-                'eval' => 'trim',
-                'default' => '#FFFFFF',
-                'wizards' => array(
-                    'colorChoice' => array(
-                        'type' => 'colorbox',
-                        'title' => 'LLL:EXT:lang/locallang_wizards:colorpicker_title',
-                        'module' => array(
-                            'name' => 'wizard_colorpicker'
-                        ),
-                        'dim' => '20x20',
-                        'JSopenParams' => 'height=600,width=380,status=0,menubar=0,scrollbars=1',
-                    ),
-                ),
+                'renderType' => 'colorpicker',
             ),
         ),
         'icon_background' => array(
@@ -1363,20 +1350,7 @@ $tca = array(
             'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:field.icon_background',
             'config' => array(
                 'type' => 'input',
-                'size' => 10,
-                'eval' => 'trim',
-                'default' => '#333333',
-                'wizards' => array(
-                    'colorChoice' => array(
-                        'type' => 'colorbox',
-                        'title' => 'LLL:EXT:lang/locallang_wizards:colorpicker_title',
-                        'module' => array(
-                            'name' => 'wizard_colorpicker'
-                        ),
-                        'dim' => '20x20',
-                        'JSopenParams' => 'height=600,width=380,status=0,menubar=0,scrollbars=1',
-                    ),
-                ),
+                'renderType' => 'colorpicker',
             ),
         ),
         'external_media_source' => array(
