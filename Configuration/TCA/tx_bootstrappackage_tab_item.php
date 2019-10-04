@@ -99,7 +99,8 @@ return array(
                 'type' => 'input',
                 'size' => '13',                
                 'eval' => 'datetime',
-                'default' => '0'
+                'default' => '0',
+                'renderType' => 'inputDateTime'
             ),
             'l10n_mode' => 'exclude',
             'l10n_display' => 'defaultAsReadonly'
@@ -113,8 +114,9 @@ return array(
                 'eval' => 'datetime',
                 'default' => '0',
                 'range' => array(
-                    'upper' => mktime(0, 0, 0, 12, 31, 2020)
-                )
+                    'upper' => mktime(0, 0, 0, 12, 31, 2020),
+                'renderType' => 'inputDateTime'
+                )                
             ),
             'l10n_mode' => 'exclude',
             'l10n_display' => 'defaultAsReadonly'
