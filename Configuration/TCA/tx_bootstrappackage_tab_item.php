@@ -22,7 +22,7 @@ return array(
             'starttime' => 'starttime',
             'endtime' => 'endtime',
         ),
-        'iconfile' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extRelPath('bootstrap_package') . 'Resources/Public/Icons/bootstrap_package_item_tab.gif'
+        'iconfile' => 'EXT:bootstrap_package/Resources/Public/Icons/bootstrap_package_item_tab.gif'        
     ),
     'interface' => array(
         'showRecordFieldList' => '
