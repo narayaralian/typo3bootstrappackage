@@ -324,8 +324,7 @@ $tca = array(
             'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:field.icon',
             'config' => array(
                 'type' => 'select',
-                'renderType' => 'selectSingle',
-                'selicon_cols' => 14,
+                'renderType' => 'selectSingle',                
                 'items' => array(
                     array(
                         'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:option.none',
