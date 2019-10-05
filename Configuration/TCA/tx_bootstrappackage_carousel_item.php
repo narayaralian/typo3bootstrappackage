@@ -176,22 +176,22 @@ return array(
                     array(
                         'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:carousel_item.item_type.header',
                         'header',
-                        'i/tt_content_header.gif'
+                        'EXT:bootstrap_package/Resources/Public/Icons/i/tt_content_header.gif'
                     ),
                     array(
                         'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:carousel_item.item_type.textandimage',
                         'textandimage',
-                        'i/tt_content_textpic.gif'
+                        'EXT:bootstrap_package/Resources/Public/Icons/i/tt_content_textpic.gif'
                     ),
                     array(
                         'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:carousel_item.item_type.backgroundimage',
                         'backgroundimage',
-                        'i/tt_content_image.gif'
+                        'EXT:bootstrap_package/Resources/Public/Icons/i/tt_content_image.gif'
                     ),
                     array(
                         'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:carousel_item.item_type.html',
                         'html',
-                        'i/tt_content_html.gif'
+                        'EXT:bootstrap_package/Resources/Public/Icons/i/tt_content_html.gif'
                     ),
                 ),
                 'default' => 'header',
