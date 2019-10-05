@@ -12,37 +12,37 @@ $GLOBALS['TCA']['tt_content']['columns']['CType']['config']['items'] = array(
     array(
         'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:content_element.texticon',
         'bootstrap_package_texticon',
-        'i/tt_content_header.gif'
+        'EXT:bootstrap_package/Resources/Public/Icons/i/tt_content_header.gif'
     ),
     array(
         'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:content_element.carousel',
         'bootstrap_package_carousel',
-        'i/tt_content_header.gif'
+        'EXT:bootstrap_package/Resources/Public/Icons/i/tt_content_header.gif'
     ),
     array(
         'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:content_element.accordion',
         'bootstrap_package_accordion',
-        'i/tt_content_header.gif'
+        'EXT:bootstrap_package/Resources/Public/Icons/i/tt_content_header.gif'
     ),
     array(
         'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:content_element.tab',
         'bootstrap_package_tab',
-        'i/tt_content_header.gif'
+        'EXT:bootstrap_package/Resources/Public/Icons/i/tt_content_header.gif'
     ),
     array(
         'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:content_element.panel',
         'bootstrap_package_panel',
-        'i/tt_content_header.gif'
+        'EXT:bootstrap_package/Resources/Public/Icons/i/tt_content_header.gif'
     ),
     array(
         'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:content_element.listgroup',
         'bootstrap_package_listgroup',
-        'i/tt_content_header.gif'
+        'EXT:bootstrap_package/Resources/Public/Icons/i/tt_content_header.gif'
     ),
     array(
         'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:content_element.external_media',
         'bootstrap_package_external_media',
-        'i/tt_content_header.gif'
+        'EXT:bootstrap_package/Resources/Public/Icons/i/tt_content_header.gif'
     ),
 );
 foreach ($backupCTypeItems as $key => $value) {
