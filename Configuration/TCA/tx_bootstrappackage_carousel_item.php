@@ -196,8 +196,12 @@ return array(
                 ),
                 'default' => 'header',
                 'authMode' => $GLOBALS['TYPO3_CONF_VARS']['BE']['explicitADmode'],
-                'authMode_enforce' => 'strict',                
-                'showIconTable' => true
+                'authMode_enforce' => 'strict',
+                'fieldWizard' => array(
+                    'selectIcons' => array (
+                        'disabled' => true
+                    ),
+                ),                
             )
         ),
         'hidden' => array(
@@ -304,6 +308,7 @@ return array(
                         'module' => array(
                             'name' => 'wizard_link'
                         ),
+                        'icon' => 'actions-wizard-link'
                     ),
                 ),
             ),
