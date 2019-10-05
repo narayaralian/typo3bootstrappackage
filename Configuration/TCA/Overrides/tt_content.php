@@ -1372,6 +1372,7 @@ $tca = array(
             'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:field.external_media_ratio',
             'config' => array(
                 'type' => 'select',
+                'renderType' => 'selectSingle',
                 'items' => array(
                     array('16:9', '16by9'),
                     array('4:3', '4by3'),
