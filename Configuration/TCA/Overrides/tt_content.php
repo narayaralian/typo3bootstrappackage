@@ -324,6 +324,7 @@ $tca = array(
             'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:field.icon',
             'config' => array(
                 'type' => 'select',
+                'renderType' => 'selectSingle',
                 'selicon_cols' => 14,
                 'items' => array(
                     array(
@@ -1306,6 +1307,7 @@ $tca = array(
             'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:field.icon_position',
             'config' => array(
                 'type' => 'select',
+                'renderType' => 'selectSingle',
                 'items' => array(
                     array('LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:option.left', 'left'),
                     array('LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:option.right', 'right'),
@@ -1318,6 +1320,7 @@ $tca = array(
             'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:field.icon_type',
             'config' => array(
                 'type' => 'select',
+                'renderType' => 'selectSingle',
                 'default' => '0',
                 'items' => array(
                     array('LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:option.default', 0),
@@ -1331,6 +1334,7 @@ $tca = array(
             'label' => 'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:field.icon_size',
             'config' => array(
                 'type' => 'select',
+                'renderType' => 'selectSingle',
                 'items' => array(
                     array('LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:option.default', 0),
                     array('LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:option.medium', 1),
