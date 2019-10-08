@@ -34,7 +34,7 @@ use TYPO3\CMS\Fluid\Core\Rendering\RenderingContextInterface;
  */
 class VarViewHelper extends AbstractViewHelper implements CompilableInterface
 {
-
+    protected $escapeOutput = false;
     /**
      * Render
      *

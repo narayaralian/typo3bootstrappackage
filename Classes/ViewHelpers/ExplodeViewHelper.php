@@ -35,7 +35,7 @@ use TYPO3\CMS\Fluid\Core\Rendering\RenderingContextInterface;
  */
 class ExplodeViewHelper extends AbstractViewHelper implements CompilableInterface
 {
-
+    protected $escapeOutput = false;
     /**
      * Render
      *

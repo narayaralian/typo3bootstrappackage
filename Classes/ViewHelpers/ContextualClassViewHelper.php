@@ -34,6 +34,7 @@ use TYPO3\CMS\Fluid\Core\Rendering\RenderingContextInterface;
  */
 class ContextualClassViewHelper extends AbstractViewHelper implements CompilableInterface
 {
+    protected $escapeOutput = false;
 
     /**
      * @var array

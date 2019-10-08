@@ -115,3 +115,45 @@ if (TYPO3_MODE === 'FE') {
 if (is_array($GLOBALS['TYPO3_CONF_VARS']['EXT']['extConf'][$_EXTKEY])) {
     $GLOBALS['TYPO3_CONF_VARS']['EXT']['extConf'][$_EXTKEY] = serialize($GLOBALS['TYPO3_CONF_VARS']['EXT']['extConf'][$_EXTKEY]);
 }
+
+/***************
+ * Register icons 
+ */
+$iconRegistry = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(
+   \TYPO3\CMS\Core\Imaging\IconRegistry::class
+);
+$iconRegistry->registerIcon(
+   'bootstrap_package_texticon', // Icon-Identifier, z.B. tx-myext-action-preview
+   \TYPO3\CMS\Core\Imaging\IconProvider\BitmapIconProvider::class,
+   ['source' => 'EXT:bootstrap_package/Resources/Public/Images/ContentWizard/texticon.png']    
+);
+$iconRegistry->registerIcon(
+   'bootstrap_package_carousel', // Icon-Identifier, z.B. tx-myext-action-preview
+   \TYPO3\CMS\Core\Imaging\IconProvider\BitmapIconProvider::class,
+   ['source' => 'EXT:bootstrap_package/Resources/Public/Images/ContentWizard/carousel.png']    
+);
+$iconRegistry->registerIcon(
+   'bootstrap_package_accordion', // Icon-Identifier, z.B. tx-myext-action-preview
+   \TYPO3\CMS\Core\Imaging\IconProvider\BitmapIconProvider::class,
+   ['source' => 'EXT:bootstrap_package/Resources/Public/Images/ContentWizard/accordion.png']    
+);
+$iconRegistry->registerIcon(
+   'bootstrap_package_tab', // Icon-Identifier, z.B. tx-myext-action-preview
+   \TYPO3\CMS\Core\Imaging\IconProvider\BitmapIconProvider::class,
+   ['source' => 'EXT:bootstrap_package/Resources/Public/Images/ContentWizard/tab.png']    
+);
+$iconRegistry->registerIcon(
+   'bootstrap_package_panel', // Icon-Identifier, z.B. tx-myext-action-preview
+   \TYPO3\CMS\Core\Imaging\IconProvider\BitmapIconProvider::class,
+   ['source' => 'EXT:bootstrap_package/Resources/Public/Images/ContentWizard/panel.png']    
+);
+$iconRegistry->registerIcon(
+   'bootstrap_package_listgroup', // Icon-Identifier, z.B. tx-myext-action-preview
+   \TYPO3\CMS\Core\Imaging\IconProvider\BitmapIconProvider::class,
+   ['source' => 'EXT:bootstrap_package/Resources/Public/Images/ContentWizard/listgroup.png']    
+);
+$iconRegistry->registerIcon(
+   'bootstrap_package_external_media', // Icon-Identifier, z.B. tx-myext-action-preview
+   \TYPO3\CMS\Core\Imaging\IconProvider\BitmapIconProvider::class,
+   ['source' => 'EXT:bootstrap_package/Resources/Public/Images/ContentWizard/external_media.png']    
+);
