@@ -9,8 +9,8 @@ if (\TYPO3\CMS\Core\Utility\VersionNumberUtility::convertVersionNumberToInteger(
      * Append t3editor to bodytext in type HTML
      */
     $showitemConfig = $GLOBALS['TCA']['tx_bootstrappackage_carousel_item']['types']['html']['showitem'];
-    $newFormat = 'bodytext;LLL:EXT:cms/locallang_ttc.xlf:bodytext.ALT.html_formlabel';
-    $oldFormat = 'bodytext;LLL:EXT:cms/locallang_ttc.xlf:bodytext.ALT.html_formlabel;;nowrap:wizards[t3editor]';
+    $newFormat = 'bodytext;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:bodytext.ALT.html_formlabel';
+    $oldFormat = 'bodytext;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:bodytext.ALT.html_formlabel;;nowrap:wizards[t3editor]';
     $GLOBALS['TCA']['tx_bootstrappackage_carousel_item']['types']['html']['showitem'] = str_replace($newFormat, $oldFormat, $showitemConfig);
     unset($showitemConfig, $newFormat, $oldFormat);
 

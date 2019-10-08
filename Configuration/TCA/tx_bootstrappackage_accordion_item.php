@@ -12,7 +12,7 @@ return array(
         'versioningWS' => true,        
         'origUid' => 't3_origuid',
         'hideAtCopy' => false,
-        'prependAtCopy' => 'LLL:EXT:lang/locallang_general.xlf:LGL.prependAtCopy',
+        'prependAtCopy' => 'LLL:EXT:lang/Resources/Private/Language/locallang_general.xlf:LGL.prependAtCopy',
         'transOrigPointerField' => 'l10n_parent',
         'transOrigDiffSourceField' => 'l10n_diffsource',
         'languageField' => 'sys_language_uid',
@@ -22,7 +22,7 @@ return array(
             'starttime' => 'starttime',
             'endtime' => 'endtime',
         ),
-        'iconfile' => 'EXT:bootstrap_package/Resources/Public/Icons/bootstrap_package_item_accordion.gif' 
+        'iconfile' => 'bootstrap_package/Resources/Public/Icons/bootstrap_package_item_accordion.gif' 
     ),
     'interface' => array(
         'showRecordFieldList' => '
@@ -35,12 +35,12 @@ return array(
     'types' => array(
         '1' => array(
             'showitem' => '
-            --palette--;LLL:EXT:cms/locallang_ttc.xlf:palette.general;general,
+            --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.general;general,
             header,
             bodytext,
-            --div--;LLL:EXT:cms/locallang_ttc.xlf:tabs.access,
-            --palette--;LLL:EXT:cms/locallang_ttc.xlf:palette.visibility;visibility,
-            --palette--;LLL:EXT:cms/locallang_ttc.xlf:palette.access;access,
+            --div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.access,
+            --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.visibility;visibility,
+            --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.access;access,
         '
         ),
     ),
@@ -50,8 +50,8 @@ return array(
         ),
         'access' => array(
             'showitem' => '
-                starttime;LLL:EXT:cms/locallang_ttc.xlf:starttime_formlabel,
-                endtime;LLL:EXT:cms/locallang_ttc.xlf:endtime_formlabel
+                starttime;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:starttime_formlabel,
+                endtime;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:endtime_formlabel
             ',
             'canNotCollapse' => 1
         ),
@@ -82,19 +82,19 @@ return array(
         ),
         'hidden' => array(
             'exclude' => 1,
-            'label' => 'LLL:EXT:lang/locallang_general.xlf:LGL.hidden',
+            'label' => 'LLL:EXT:lang/Resources/Private/Language/locallang_general.xlf:LGL.hidden',
             'config' => array(
                 'type' => 'check',
                 'items' => array(
                     '1' => array(
-                        '0' => 'LLL:EXT:cms/locallang_ttc.xlf:hidden.I.0'
+                        '0' => 'LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:hidden.I.0'
                     )
                 )
             )
         ),
         'starttime' => array(
             'exclude' => 1,
-            'label' => 'LLL:EXT:lang/locallang_general.xlf:LGL.starttime',
+            'label' => 'LLL:EXT:lang/Resources/Private/Language/locallang_general.xlf:LGL.starttime',
             'config' => array(
                 'type' => 'input',
                 'size' => '13',                
@@ -107,7 +107,7 @@ return array(
         ),
         'endtime' => array(
             'exclude' => 1,
-            'label' => 'LLL:EXT:lang/locallang_general.xlf:LGL.endtime',
+            'label' => 'LLL:EXT:lang/Resources/Private/Language/locallang_general.xlf:LGL.endtime',
             'config' => array(
                 'type' => 'input',
                 'size' => '13',                
@@ -123,7 +123,7 @@ return array(
         ),
         'sys_language_uid' => array(
             'exclude' => 1,
-            'label' => 'LLL:EXT:lang/locallang_general.xlf:LGL.language',
+            'label' => 'LLL:EXT:lang/Resources/Private/Language/locallang_general.xlf:LGL.language',
             'config' => array(
                 'type' => 'select',
                 'renderType' => 'selectSingle',
@@ -131,11 +131,11 @@ return array(
                 'foreign_table_where' => 'ORDER BY sys_language.title',
                 'items' => array(
                     array(
-                        'LLL:EXT:lang/locallang_general.xlf:LGL.allLanguages',
+                        'LLL:EXT:lang/Resources/Private/Language/locallang_general.xlf:LGL.allLanguages',
                         -1
                     ),
                     array(
-                        'LLL:EXT:lang/locallang_general.xlf:LGL.default_value',
+                        'LLL:EXT:lang/Resources/Private/Language/locallang_general.xlf:LGL.default_value',
                         0
                     )
                 )
