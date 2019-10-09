@@ -22,7 +22,7 @@ return array(
             'starttime' => 'starttime',
             'endtime' => 'endtime',
         ),
-        'iconfile' => 'bootstrap_package/Resources/Public/Icons/bootstrap_package_item_accordion.gif' 
+        'iconfile' => 'EXT:bootstrap_package/Resources/Public/Icons/bootstrap_package_item_accordion.gif' 
     ),
     'interface' => array(
         'showRecordFieldList' => '

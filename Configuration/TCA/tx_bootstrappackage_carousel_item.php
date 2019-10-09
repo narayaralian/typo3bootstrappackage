@@ -28,7 +28,7 @@ return array(
             'textandimage' => 'EXT:bootstrap_package/Resources/Public/Icons/i/tt_content_textpic.gif',
             'backgroundimage' => 'EXT:bootstrap_package/Resources/Public/Icons/i/tt_content_image.gif',
         ),
-        'iconfile' => 'EXT:bootstrap_package/Resources/Public/Icons/bootstrap_package_item_teaser.gif' ,        
+        'iconfile' => 'EXT:bootstrap_package/Resources/Public/Icons/bootstrap_package_item_teaser.gif',        
     ),
     'interface' => array(
         'showRecordFieldList' => '
