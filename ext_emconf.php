@@ -18,8 +18,8 @@ $EM_CONF[$_EXTKEY] = array (
   array (
     'depends' => 
     array (
-      'typo3' => '6.2.14-7.99.99',
-      'fluid_styled_content' => '8.7.27 - 8.9.9',
+      'typo3' => '6.2.14-8.99.99',
+	  'css_styled_content' => '6.2.0-7.99.99',
     ),
     'conflicts' => 
     array (
