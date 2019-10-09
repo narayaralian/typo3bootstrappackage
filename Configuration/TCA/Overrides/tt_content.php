@@ -12,37 +12,37 @@ $GLOBALS['TCA']['tt_content']['columns']['CType']['config']['items'] = array(
     array(
         'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:content_element.texticon',
         'bootstrap_package_texticon',
-        'EXT:bootstrap_package/Resources/Public/Icons/i/tt_content_header.gif'
+        'EXT:bootstrap_package/Resources/Public/Images/ContentWizard/texticon.png'
     ),
     array(
         'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:content_element.carousel',
         'bootstrap_package_carousel',
-        'EXT:bootstrap_package/Resources/Public/Icons/i/tt_content_header.gif'
+        'EXT:bootstrap_package/Resources/Public/Images/ContentWizard/carousel.png'
     ),
     array(
         'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:content_element.accordion',
         'bootstrap_package_accordion',
-        'EXT:bootstrap_package/Resources/Public/Icons/i/tt_content_header.gif'
+        'EXT:bootstrap_package/Resources/Public/Images/ContentWizard/accordion.png'
     ),
     array(
         'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:content_element.tab',
         'bootstrap_package_tab',
-        'EXT:bootstrap_package/Resources/Public/Icons/i/tt_content_header.gif'
+        'EXT:bootstrap_package/Resources/Public/Images/ContentWizard/tab.png'
     ),
     array(
         'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:content_element.panel',
         'bootstrap_package_panel',
-        'EXT:bootstrap_package/Resources/Public/Icons/i/tt_content_header.gif'
+        'EXT:bootstrap_package/Resources/Public/Images/ContentWizard/panel.png'
     ),
     array(
         'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:content_element.listgroup',
         'bootstrap_package_listgroup',
-        'EXT:bootstrap_package/Resources/Public/Icons/i/tt_content_header.gif'
+        'EXT:bootstrap_package/Resources/Public/Images/ContentWizard/listgroup.png'
     ),
     array(
         'LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:content_element.external_media',
         'bootstrap_package_external_media',
-        'EXT:bootstrap_package/Resources/Public/Icons/i/tt_content_header.gif'
+        'EXT:bootstrap_package/Resources/Public/Images/ContentWizard/external_media.png'
     ),
 );
 foreach ($backupCTypeItems as $key => $value) {
@@ -67,10 +67,15 @@ unset($backupCTypeItems);
  */
 $tca = array(
     'ctrl' => array(
-        'typeicons' => array(
-            'bootstrap_package_panel' => 'tt_content_header.gif',
-            'bootstrap_package_listgroup' => 'tt_content_header.gif',
-            'bootstrap_package_texticon' => 'tt_content_header.gif',
+        'typeicon_column' => 'CType',
+        'typeicon_classes' => array(
+            'bootstrap_package_carousel' => 'bootstrap_package_carousel',
+            'bootstrap_package_accordion' => 'bootstrap_package_accordion',
+            'bootstrap_package_panel' => 'bootstrap_package_panel',
+            'bootstrap_package_listgroup' => 'bootstrap_package_listgroup',
+            'bootstrap_package_texticon' => 'bootstrap_package_texticon',
+            'bootstrap_package_external_media' => 'bootstrap_package_external_media',
+            'bootstrap_package_tab' => 'bootstrap_package_tab',
         ),
     ),
     'palettes' => array(

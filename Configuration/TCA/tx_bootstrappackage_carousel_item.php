@@ -22,11 +22,11 @@ return array(
             'starttime' => 'starttime',
             'endtime' => 'endtime',
         ),
-        'typeicons' => array(
-            'header' => 'tt_content_header.gif',
-            'html' => 'tt_content_html.gif',
-            'textandimage' => 'tt_content_textpic.gif',
-            'backgroundimage' => 'tt_content_image.gif',
+        'typeicon_classes' => array(
+            'header' => 'EXT:bootstrap_package/Resources/Public/Icons/i/tt_content_header.gif',
+            'html' => 'EXT:bootstrap_package/Resources/Public/Icons/i/tt_content_html.gif',
+            'textandimage' => 'EXT:bootstrap_package/Resources/Public/Icons/i/tt_content_textpic.gif',
+            'backgroundimage' => 'EXT:bootstrap_package/Resources/Public/Icons/i/tt_content_image.gif',
         ),
         'iconfile' => 'EXT:bootstrap_package/Resources/Public/Icons/bootstrap_package_item_teaser.gif' ,        
     ),
